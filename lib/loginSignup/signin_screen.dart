@@ -176,7 +176,8 @@ class _SignInScreenState extends State<SignInScreen> {
                               );
                             }
                           },
-                          child: const Text('Sign up'),
+                          style: ButtonStyle(backgroundColor:WidgetStatePropertyAll(lightColorScheme.primary)),
+                          child: const Text('Sign In',style: TextStyle(color: Colors.white),),
                         ),
                       ),
                       const SizedBox(

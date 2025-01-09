@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.red,
+        primaryColor: Colors.deepPurple,
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           selectedIconTheme: IconThemeData(color: Theme.of(context).primaryColor),
           unselectedIconTheme: const IconThemeData(color: Colors.grey),

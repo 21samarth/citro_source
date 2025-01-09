@@ -206,7 +206,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               );
                             }
                           },
-                          child: const Text('Sign up'),
+                          style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(lightColorScheme.primary)),
+                          child: const Text('Sign up',style: TextStyle(color: Colors.white),),
                         ),
                       ),
                       const SizedBox(

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 import '../components/custom_scaffold.dart';
 import '../theme.dart';
+import 'forgetPassword/ForgotPasswordOTP.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -139,6 +140,9 @@ class _SignInScreenState extends State<SignInScreen> {
                             ],
                           ),
                           GestureDetector(
+                            onTap:(){
+                              Navigator.push(context,MaterialPageRoute(builder:(context)=>ForgotPassword()));
+                            },
                             child: Text(
                               'Forget password?',
                               style: TextStyle(

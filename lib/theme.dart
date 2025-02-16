@@ -15,7 +15,9 @@ const lightColorScheme = ColorScheme(
   surface: Color(0xFFF9FAF3),
   onSurface: Color(0xFF1A1C18),
 );
-
+var fadedBlue = const Color(0xFFF2F1F9);
+var scaffoldBackgroundColor = const Color(0xFFFFFFFF);
+var grey = Colors.grey;
 const darkColorScheme = ColorScheme(
   brightness: Brightness.dark,
   primary: Color(0xFF416FDF),
